@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TMDBTestApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TMDBTestApp
+
+pod 'SDWebImage', '~> 5.0'
+#pod 'ProgressHUD'
+pod 'JGProgressHUD'
+
+  target 'TMDBTestAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TMDBTestAppUITests' do
+    # Pods for testing
+  end
+
+end

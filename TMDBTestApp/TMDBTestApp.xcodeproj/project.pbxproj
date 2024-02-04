@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50653B2AC18C2D03EE6F8939 /* Pods_TMDBTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2676E15568309C8ABE8000 /* Pods_TMDBTestApp.framework */; };
+		945B067C1119E1554B708127 /* Pods_TMDBTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0A266C10EFD84C6E89CF2F /* Pods_TMDBTestAppTests.framework */; };
+		CEA519A88461B5B823876753 /* Pods_TMDBTestApp_TMDBTestAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB556A51170F95AB8E93D8A /* Pods_TMDBTestApp_TMDBTestAppUITests.framework */; };
+		D70B29292B6F9941008EE54F /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70B29282B6F9941008EE54F /* MovieDetail.swift */; };
 		D7733F232B6EA118005F17F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7733F222B6EA118005F17F2 /* AppDelegate.swift */; };
 		D7733F252B6EA118005F17F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7733F242B6EA118005F17F2 /* SceneDelegate.swift */; };
 		D7733F272B6EA118005F17F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7733F262B6EA118005F17F2 /* ViewController.swift */; };
@@ -17,6 +21,9 @@
 		D7733F3D2B6EA119005F17F2 /* TMDBTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7733F3C2B6EA119005F17F2 /* TMDBTestAppTests.swift */; };
 		D7733F472B6EA119005F17F2 /* TMDBTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7733F462B6EA119005F17F2 /* TMDBTestAppUITests.swift */; };
 		D7733F492B6EA119005F17F2 /* TMDBTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7733F482B6EA119005F17F2 /* TMDBTestAppUITestsLaunchTests.swift */; };
+		D7733F5B2B6EC640005F17F2 /* PopularMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7733F5A2B6EC640005F17F2 /* PopularMovies.swift */; };
+		D7733F5D2B6ED7FE005F17F2 /* MoviesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7733F5C2B6ED7FE005F17F2 /* MoviesCollectionViewCell.swift */; };
+		D79152EC2B6F95D300C5AF3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79152EB2B6F95D300C5AF3D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2676E15568309C8ABE8000 /* Pods_TMDBTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMDBTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187683E13961EDAB49760DD1 /* Pods-TMDBTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDBTestApp.debug.xcconfig"; path = "Target Support Files/Pods-TMDBTestApp/Pods-TMDBTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2E0A266C10EFD84C6E89CF2F /* Pods_TMDBTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMDBTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		494EA674A889D0384D156EC6 /* Pods-TMDBTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDBTestApp.release.xcconfig"; path = "Target Support Files/Pods-TMDBTestApp/Pods-TMDBTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		83E4EE7CBDC105012A917B77 /* Pods-TMDBTestApp-TMDBTestAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDBTestApp-TMDBTestAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TMDBTestApp-TMDBTestAppUITests/Pods-TMDBTestApp-TMDBTestAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		980EDE437F6949000186ECF8 /* Pods-TMDBTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDBTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-TMDBTestAppTests/Pods-TMDBTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D70B29282B6F9941008EE54F /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		D7733F1F2B6EA118005F17F2 /* TMDBTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDBTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7733F222B6EA118005F17F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7733F242B6EA118005F17F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +65,12 @@
 		D7733F422B6EA119005F17F2 /* TMDBTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDBTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7733F462B6EA119005F17F2 /* TMDBTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTestAppUITests.swift; sourceTree = "<group>"; };
 		D7733F482B6EA119005F17F2 /* TMDBTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7733F5A2B6EC640005F17F2 /* PopularMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovies.swift; sourceTree = "<group>"; };
+		D7733F5C2B6ED7FE005F17F2 /* MoviesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCollectionViewCell.swift; sourceTree = "<group>"; };
+		D79152EB2B6F95D300C5AF3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EBB556A51170F95AB8E93D8A /* Pods_TMDBTestApp_TMDBTestAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMDBTestApp_TMDBTestAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECEC93300DE8FF3B57CFEA6 /* Pods-TMDBTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDBTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TMDBTestAppTests/Pods-TMDBTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1EF64A08E25FAB6810FA5D3 /* Pods-TMDBTestApp-TMDBTestAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDBTestApp-TMDBTestAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TMDBTestApp-TMDBTestAppUITests/Pods-TMDBTestApp-TMDBTestAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50653B2AC18C2D03EE6F8939 /* Pods_TMDBTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945B067C1119E1554B708127 /* Pods_TMDBTestAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA519A88461B5B823876753 /* Pods_TMDBTestApp_TMDBTestAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A29462F02B8BA1260E7F03F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D2676E15568309C8ABE8000 /* Pods_TMDBTestApp.framework */,
+				EBB556A51170F95AB8E93D8A /* Pods_TMDBTestApp_TMDBTestAppUITests.framework */,
+				2E0A266C10EFD84C6E89CF2F /* Pods_TMDBTestAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96D379AC5EEEA04ED26C3A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				187683E13961EDAB49760DD1 /* Pods-TMDBTestApp.debug.xcconfig */,
+				494EA674A889D0384D156EC6 /* Pods-TMDBTestApp.release.xcconfig */,
+				83E4EE7CBDC105012A917B77 /* Pods-TMDBTestApp-TMDBTestAppUITests.debug.xcconfig */,
+				F1EF64A08E25FAB6810FA5D3 /* Pods-TMDBTestApp-TMDBTestAppUITests.release.xcconfig */,
+				EECEC93300DE8FF3B57CFEA6 /* Pods-TMDBTestAppTests.debug.xcconfig */,
+				980EDE437F6949000186ECF8 /* Pods-TMDBTestAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D7733F162B6EA118005F17F2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				D7733F3B2B6EA119005F17F2 /* TMDBTestAppTests */,
 				D7733F452B6EA119005F17F2 /* TMDBTestAppUITests */,
 				D7733F202B6EA118005F17F2 /* Products */,
+				96D379AC5EEEA04ED26C3A82 /* Pods */,
+				2A29462F02B8BA1260E7F03F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +152,9 @@
 				D7733F222B6EA118005F17F2 /* AppDelegate.swift */,
 				D7733F242B6EA118005F17F2 /* SceneDelegate.swift */,
 				D7733F262B6EA118005F17F2 /* ViewController.swift */,
+				D79152EB2B6F95D300C5AF3D /* DetailViewController.swift */,
+				D7733F5C2B6ED7FE005F17F2 /* MoviesCollectionViewCell.swift */,
+				D7733F592B6EC621005F17F2 /* Models */,
 				D7733F282B6EA118005F17F2 /* Main.storyboard */,
 				D7733F2E2B6EA119005F17F2 /* Assets.xcassets */,
 				D7733F302B6EA119005F17F2 /* LaunchScreen.storyboard */,
@@ -130,6 +181,15 @@
 			path = TMDBTestAppUITests;
 			sourceTree = "<group>";
 		};
+		D7733F592B6EC621005F17F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7733F5A2B6EC640005F17F2 /* PopularMovies.swift */,
+				D70B29282B6F9941008EE54F /* MovieDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7733F4C2B6EA119005F17F2 /* Build configuration list for PBXNativeTarget "TMDBTestApp" */;
 			buildPhases = (
+				9C509EC60984CF8F2D52D845 /* [CP] Check Pods Manifest.lock */,
 				D7733F1B2B6EA118005F17F2 /* Sources */,
 				D7733F1C2B6EA118005F17F2 /* Frameworks */,
 				D7733F1D2B6EA118005F17F2 /* Resources */,
+				3B9867ACEA6A6DCD6F08E8C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7733F4F2B6EA119005F17F2 /* Build configuration list for PBXNativeTarget "TMDBTestAppTests" */;
 			buildPhases = (
+				AE020847827812E1D3DFFA50 /* [CP] Check Pods Manifest.lock */,
 				D7733F342B6EA119005F17F2 /* Sources */,
 				D7733F352B6EA119005F17F2 /* Frameworks */,
 				D7733F362B6EA119005F17F2 /* Resources */,
@@ -172,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7733F522B6EA119005F17F2 /* Build configuration list for PBXNativeTarget "TMDBTestAppUITests" */;
 			buildPhases = (
+				ED51650DF5EE04D97DF2CFE4 /* [CP] Check Pods Manifest.lock */,
 				D7733F3E2B6EA119005F17F2 /* Sources */,
 				D7733F3F2B6EA119005F17F2 /* Frameworks */,
 				D7733F402B6EA119005F17F2 /* Resources */,
+				1CFCCB0021DDE1AB3B4A441C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +321,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CFCCB0021DDE1AB3B4A441C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMDBTestApp-TMDBTestAppUITests/Pods-TMDBTestApp-TMDBTestAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMDBTestApp-TMDBTestAppUITests/Pods-TMDBTestApp-TMDBTestAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TMDBTestApp-TMDBTestAppUITests/Pods-TMDBTestApp-TMDBTestAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B9867ACEA6A6DCD6F08E8C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMDBTestApp/Pods-TMDBTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMDBTestApp/Pods-TMDBTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TMDBTestApp/Pods-TMDBTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C509EC60984CF8F2D52D845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMDBTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE020847827812E1D3DFFA50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMDBTestAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED51650DF5EE04D97DF2CFE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMDBTestApp-TMDBTestAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7733F1B2B6EA118005F17F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,8 +431,12 @@
 			files = (
 				D7733F2D2B6EA118005F17F2 /* TMDBTestApp.xcdatamodeld in Sources */,
 				D7733F272B6EA118005F17F2 /* ViewController.swift in Sources */,
+				D7733F5B2B6EC640005F17F2 /* PopularMovies.swift in Sources */,
+				D70B29292B6F9941008EE54F /* MovieDetail.swift in Sources */,
 				D7733F232B6EA118005F17F2 /* AppDelegate.swift in Sources */,
 				D7733F252B6EA118005F17F2 /* SceneDelegate.swift in Sources */,
+				D7733F5D2B6ED7FE005F17F2 /* MoviesCollectionViewCell.swift in Sources */,
+				D79152EC2B6F95D300C5AF3D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -429,7 +601,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -441,11 +613,14 @@
 		};
 		D7733F4D2B6EA119005F17F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187683E13961EDAB49760DD1 /* Pods-TMDBTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9538A8V2SA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TMDBTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,6 +628,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,11 +644,14 @@
 		};
 		D7733F4E2B6EA119005F17F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494EA674A889D0384D156EC6 /* Pods-TMDBTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9538A8V2SA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TMDBTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,6 +659,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,6 +675,7 @@
 		};
 		D7733F502B6EA119005F17F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECEC93300DE8FF3B57CFEA6 /* Pods-TMDBTestAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +695,7 @@
 		};
 		D7733F512B6EA119005F17F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980EDE437F6949000186ECF8 /* Pods-TMDBTestAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +715,7 @@
 		};
 		D7733F532B6EA119005F17F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E4EE7CBDC105012A917B77 /* Pods-TMDBTestApp-TMDBTestAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +733,7 @@
 		};
 		D7733F542B6EA119005F17F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EF64A08E25FAB6810FA5D3 /* Pods-TMDBTestApp-TMDBTestAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
